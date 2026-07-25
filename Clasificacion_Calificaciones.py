@@ -4,7 +4,7 @@
 nota = float(input("Ingrese calificación (0-100): "))
 if nota >= 90:
     letra = "A"
-if nota >= 80:
+elif nota >= 80:
     letra = "B"
 elif nota >= 70:
     letra = "C"
